@@ -21,7 +21,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr v-for="client in sortedClients" :key="client._id62">
+					<tr v-for="client in sortedClients" :key="client._id">
 						<td>{{ client.name }}</td>
 						<td>{{ client.email }}</td>
 						<td>{{ client.phone }}</td>
